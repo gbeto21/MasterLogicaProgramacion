@@ -51,4 +51,7 @@ function relogRapido() {
   }, 1000);
 }
 
-relogRapido();
+let reloj = new Reloj();
+reloj.encender();
+
+// relogRapido();
